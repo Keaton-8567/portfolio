@@ -1,7 +1,6 @@
 import Image from "next/image"; // 1. Import the Image component
 import Link from 'next/link';
 import styles from "./page.module.css";
-import placeholder from "./placeholder.png"
 
 // Color Pallet #283d3b, #197278, #edddd4, #c44536, #772e25
 
@@ -22,13 +21,7 @@ export default function Home() {
       </div>
 
       <div className={styles.page}>
-        <div className={styles.page_text}>
-          <h1>Hello! <br/> my name is Keaton Kuykendall</h1>
-          <p>Test paragraph</p>
-        </div>
-        <div>
-          <Image src={placeholder} className={styles.page_image} alt="placeholder image"/>
-        </div>
+        <h1>Resume</h1>
       </div>
 
       <div className={styles.foot}>

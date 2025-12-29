@@ -27,20 +27,3 @@
   margin: 0;
   font-size: 1.2rem;             /* Adjust size as needed */
 }
-
-.page {
-  align-items: center;
-  text-align: center;
-  margin-top: 10%;
-  display: flex;
-}
-
-.page_text {
-  /* margin-right: 20%; */
-  margin-right: 5%;
-}
-
-.page_image {
-  width: 100%;
-  height: 18cm;
-}
